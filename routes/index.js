@@ -33,7 +33,7 @@ router.get('/contact', function(req, res, next) {
 
 router.get('/svgdata/:target', (req, res) => {
   //we set up query here
-  let query = `SELECT * FROM tbl_everything WHERE id="${req.params.target}"`;
+  let query = `SELECT * FROM tbl_ai WHERE id="${req.params.target}"`;
 
   sql.query(query, (err, result)  => { //something broke!
     if (err) { console.log(err); }
