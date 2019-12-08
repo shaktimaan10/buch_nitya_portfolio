@@ -23,6 +23,7 @@ div {
 
 img {
   width: 100%;
+  max-width: 1920px;
 }
 
 p {
@@ -34,10 +35,17 @@ p {
   padding: 10px;
 }
 
+.logo-image {
+  // height: 50px;
+  width: 15vw;
+  margin-right: auto;
+}
+
 .header {
   padding: 0 5vw;
   padding-top: 12px;
   background-color: #f2f0e9;
+  align-content: flex-start;
   /* width: 100vw; */
   /* background: rgba(120, 109, 97, 0.6); */
   /* position: fixed;
@@ -65,21 +73,21 @@ p {
 
 a:hover {
   /* font-size: 20px; */
-  /* color: rgb(120, 109, 97); */
+  /* color: #786d61; */
   color: #333333;
 }
 
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
-  color: rgb(120, 109, 97);
+  color: #786d61;
   margin-bottom: 30px;
 }
 
 h2 {
   font-family: 'Libre Baskerville', serif;
   font-size: 24px;
-  color: rgb(120, 109, 97);
+  color: #786d61;
   margin-bottom: 25px;
 
 }
@@ -94,6 +102,10 @@ h2 {
 
 .tv-row {
   flex-direction: column;
+}
+
+.tv-row a img {
+  width: 90vw;
 }
 
 .tv-row video {
@@ -111,6 +123,10 @@ h2 {
 .column {
   flex-direction: column;
   align-items: center;
+}
+
+.projects .tv-row .ae-pr {
+  flex-direction: column;
 }
 
 .about, .projects {
@@ -152,6 +168,7 @@ h2 {
 
 .poster {
   flex-direction: column;
+  align-items: flex-start;
 }
 
 .chess img {
@@ -161,11 +178,12 @@ h2 {
 .projects video {
   width: 100%;
   max-width: 1920px;
-}
-
-.projects p {
   margin-bottom: 20px;
 }
+
+// .projects p {
+//   // margin-bottom: 20px;
+// }
 
 .projects img {
   margin-bottom: 20px;
@@ -199,13 +217,13 @@ h2 {
 }
 
 #contact-info a {
-  color: rgb(120, 109, 97);
+  color: #786d61;
 }
 
 #contact-info {
   margin-left: 20vw;
   font-size: 15px;
-  color: rgb(120, 109, 97);
+  color: #786d61;
   /* padding-left: 20vw; */
   margin-top: 90px;
   width: 60vw;
@@ -215,7 +233,7 @@ h2 {
 
 #contact-info p {
   font-size: 15px;
-  color: rgb(120, 109, 97);
+  color: #786d61;
 }
 
 .form-field {
@@ -223,6 +241,11 @@ h2 {
   width: 100vw;
   align-items: flex-start;
   /* margin-left: 20vw; */
+}
+
+.form-field label {
+  color: #666;
+  font-size: 13px;
 }
 
 input, textarea {
@@ -266,12 +289,26 @@ button {
 {
    display: flex;
 }
+
+.popover {
+  display: none;
+}
+
+.show-popover {
+  display: flex;
+}
+
 /* ------------------- ipad ------------------- */
 
 @media screen and (min-width: 768px) {
 
   .projects {
       padding: 0 4vw;
+  }
+
+  .logo-image {
+    // height: 50px;
+    width: 9vw;
   }
 
   .header {
@@ -302,7 +339,7 @@ button {
   }
 
   .poster img {
-      width: 35vw;
+      width: 25vw;
   }
 
   .hint {
@@ -360,6 +397,11 @@ button {
 
 @media screen and (min-width: 1024px) {
 
+  .logo-image {
+    // height: 50px;
+    width: 7vw;
+  }
+
   .tv-show {
       display: flex;
   }
@@ -414,7 +456,7 @@ button {
   }
 
   .tv-row img {
-      width: 47vw;
+      width: 45vw;
   }
 
   .tv-row img:nth-child(1) {
@@ -435,7 +477,7 @@ button {
   }
 
   .ai .column img {
-      width: 35vw;
+      width: 25vw;
   }
 
   .ai .column img:nth-child(1) {
@@ -448,6 +490,14 @@ button {
 
   .tv-row video {
       width: 50vw;
+  }
+
+  .projects .tv-row .ae-pr {
+    flex-direction: row-reverse;
+  }
+
+  .tv-row a img {
+    width: 30vw;
   }
 
 }
