@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 440 279" style="enable-background:new 0 0 440 279;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:10;stroke-miterlimit:10;}
+</style>
+<g id="guides">
+</g>
+<g id="white-space">
+</g>
+<g id="boxes">
+	<path id="upper" d="M323.63,96.4H105.71c-2.76,0-5-2.24-5-5v-32c0-2.76,2.24-5,5-5h217.92c2.76,0,5,2.24,5,5v32
+		C328.63,94.16,326.4,96.4,323.63,96.4z"/>
+	<path id="middle" d="M376.07,159H70.93c-2.76,0-5-2.24-5-5v-32c0-2.76,2.24-5,5-5h305.13c2.76,0,5,2.24,5,5v32
+		C381.07,156.76,378.83,159,376.07,159z"/>
+	<path id="lower" d="M350.85,210h-44.43c-2.21,0-4-1.79-4-4v-34c0-2.21,1.79-4,4-4h44.43c2.21,0,4,1.79,4,4v34
+		C354.85,208.21,353.06,210,350.85,210z"/>
+	<path id="lower_1_" d="M292.63,216h-22.22c-1.1,0-2-0.9-2-2v-17c0-1.1,0.9-2,2-2h22.22c1.1,0,2,0.9,2,2v17
+		C294.63,215.1,293.74,216,292.63,216z"/>
+	<path id="lower_2_" d="M260.15,222h-11.73c-0.55,0-1-0.45-1-1v-9c0-0.55,0.45-1,1-1h11.73c0.55,0,1,0.45,1,1v9
+		C261.15,221.55,260.7,222,260.15,222z"/>
+</g>
+<g id="outlines">
+	<polyline class="st0" points="93,75.4 76.1,75.4 76.1,109 	"/>
+	<polyline class="st0" points="337,75.4 371,75.4 371,109 	"/>
+	<polyline class="st0" points="101,217 76,217 76,168 	"/>
+</g>
+</svg>
