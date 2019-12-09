@@ -77,6 +77,10 @@ a:hover {
   color: #333333;
 }
 
+.header a:hover, .projects-menu a p:hover {
+  color: #786d61;  
+}
+
 h1 {
   font-family: 'Libre Baskerville', serif;
   font-size: 30px;
@@ -298,9 +302,40 @@ button {
   display: flex;
 }
 
+.home {
+  padding: 5vw;
+}
+
+.home img {
+  margin-bottom: 30px;
+}
+
+.home h1 {
+  line-height: 60px;
+  width: 90vw;
+}
+
+.line1 {
+  font-size: 28px;
+  color: #444444;
+}
+
+.line2 {
+  margin-left: 5vw;
+  font-size: 21px;
+  // color: #444444;
+}
+
+.line3 {
+  margin-left: 10vw;
+  font-size: 28px;
+  color: #444444;
+}
+
 /* ------------------- ipad ------------------- */
 
 @media screen and (min-width: 768px) {
+
 
   .projects {
       padding: 0 4vw;
@@ -342,8 +377,14 @@ button {
       width: 25vw;
   }
 
-  .hint {
+  .hint, .solution {
       flex-direction: column;
+      border: solid 2px #444444;
+      border-radius: 5px;
+  }
+
+  .hint:hover, .solution:hover {
+    background-color: beige;
   }
 
   .tv-row {
@@ -394,6 +435,42 @@ button {
       border: none;
       border-bottom: solid 0.1px rgba(100, 100, 100, 1);
   }
+
+  .home {
+    align-items: center;
+    padding: 0 5vw;
+    padding-top: 100px;
+  }
+
+  // .home img {
+  //   // margin-bottom: 30px;
+  //   // width: 45vw;
+  // }
+  
+  .home h1 {
+    line-height: 60px;
+    width: 50vw;
+  }
+  
+  .line1 {
+    font-size: 2.4vw;
+    color: #444444;
+  }
+  
+  .line2 {
+    margin-left: 0;
+    font-size: 2vw;
+    // color: #444444;
+  }
+  
+  .line3 {
+    margin-left: 0;
+    font-size: 2.8vw;
+    color: #444444;
+  }
+  
+
+
 
 }
 
@@ -502,6 +579,25 @@ button {
 
   .tv-row a img {
     width: 30vw;
+  }
+
+  .home {
+    padding: 0 2vw;
+    padding-top: 100px;
+  }
+
+  .line2 {
+    font-size: 1.8vw;
+    margin-left: 4vw;
+  }
+
+  .line3 {
+    margin-left: 8vw;
+    font-size: 2.6vw;
+  }
+
+  .poster p {
+    padding: 5px;
   }
 
 }
